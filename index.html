@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Chatbot Demo</title>
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
+	<script src="ApiAi.js"></script>
+	<script src="demoFunctions.js"></script>
+
+	<style>
+		#placeholder {
+			text-align: center;
+			margin-top: 1.5em;
+		}
+		
+		#main-wrapper {
+			display: none;
+		}
+		
+		.clearfix {
+			clear: both;
+		}
+	</style>
+
+	<!-- Google Cloud Platform Header Styling -->
+	<link rel="stylesheet" href="https://cloud.google.com/_static/0d76052693/css/devsite-cloud-white.css">
+	<link rel="stylesheet" href="https://cloud.google.com/_static/0d76052693/css/cloud/cloud-site.css">
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
+</head>
+
+<body>
+	<header class="devsite-top-section nocontent devsite-top-section-pinned">
+		<div class="devsite-top-logo-row-wrapper-wrapper" style="position: relative;">
+			<div class="devsite-top-logo-row-wrapper">
+				<div class="devsite-top-logo-row devsite-full-site-width">
+					<div class="devsite-product-name-wrapper">
+						<a href="" class="devsite-site-logo-link gc-analytics-event" data-category="Site-Wide Custom Events" data-label="Site logo">
+							<img src="https://cloud.google.com/_static/ed4a8c0316/images/cloud/cloud-logo.svg" class="devsite-site-logo" alt="Google Cloud">
+							<span class="devsite-site-name devsite-product-name">Google Cloud</span>
+						</a>
+					</div>
+					<div class="devsite-header-upper-tabs">
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="devsite-collapsible-section" style="margin-top: 0px;">
+			<div class="devsite-header-background devsite-full-site-width">
+				<div class="devsite-product-button-row">
+					<a href="http://go/cerequest" class="cloud-contact-sales-button button">
+				    Contact Us
+				  </a></div>
+			</div>
+		</div>
+		</div>
+	</header>
+	<div id="main-wrapper" style="display:block;padding-top: 140px;">
+		<div class="container">
+			<div class="row">
+				<div class="col s5">
+					<div class="input-field">
+						<input placeholder="Hey, ask me something..." id="q" type="text">
+					</div>
+					<div id="result">
+						<!--div class="left-align flow-text">test</div>
+	                    <div class="right-align flow-text">one more test</div-->
+					</div>
+				</div>
+				<div class="col s2"></div>
+				<div class="col s5">
+					<!--h5>Request payload:</h5>
+	            <pre id="jsonRequest"></pre-->
+					<h5>Response payload:</h5>
+					<pre id="jsonResponse"></pre>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id='audioDiv'>
+	</div>
+	<div class='footer' style='position: fixed;left: 0;bottom: 0;width: 100%;height:50px;background-color: #455a64;font-size:16px;text-align: right;padding: 10px 10px;font-weight:500;color:#fff;'>
+		Deployed by <a href='http://go/ceaas'>CE Shared Services</a>
+	</div>
+	<script defer src="layout.js"></script>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-116961363-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+
+		function gtag() {
+			dataLayer.push(arguments);
+		}
+		gtag('js', new Date());
+
+		gtag('config', 'UA-116961363-1');
+	</script>
+
+</body>
+</html>
