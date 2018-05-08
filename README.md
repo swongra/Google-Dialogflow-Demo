@@ -36,7 +36,7 @@ This is a sample deployment of Dialogflow will:
 
 1. cd to your project's directory housing JS and HTML files. Run the following command:
 
-    firebase deploy
+        firebase deploy
 
 2. Preview via URL provided. 
 
