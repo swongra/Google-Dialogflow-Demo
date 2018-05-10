@@ -12,9 +12,9 @@ This is a sample deployment of Dialogflow will:
 * Show JSON payload response on the webpage to the user
 
 ## Before you begin
-1. Go to dialogflow.com to create your first agent. Save Client Access Token. 
-2. Create Firebase instance.
-3. Enable the Translate and Speech-to-Text API in your Cloud Console project.
+1. Go to dialogflow.com to create your first agent. Follow Dialogflow Documentation. Save Client Access Token. 
+2. Create Firebase instance. Follow Firebase Documentation.
+3. Enable the Translate and Speech-to-Text API in your Cloud Console project. Follow Google APIs documentation. 
 
 [Dialogflow Documentation]: https://dialogflow.com/
 [Firebase Documentation]: https://firebase.google.com/docs/hosting/deploying
