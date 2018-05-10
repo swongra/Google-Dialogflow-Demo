@@ -12,13 +12,9 @@ This is a sample deployment of Dialogflow will:
 * Show JSON payload response on the webpage to the user
 
 ## Before you begin
-1. Go to dialogflow.com to create your first agent. Follow Dialogflow Documentation. Save Client Access Token. 
-2. Create Firebase instance. Follow Firebase Documentation.
-3. Enable the Translate and Speech-to-Text API in your Cloud Console project. Follow Google APIs documentation. 
-
-[Dialogflow Documentation]: https://dialogflow.com/
-[Firebase Documentation]: https://firebase.google.com/docs/hosting/deploying
-[Google APIs]: https://support.google.com/cloud/answer/6158841?hl=en
+1. Go to dialogflow.com to create your first agent. Follow [Dialogflow Documentation](https://dialogflow.com/). Save Client Access Token. 
+2. Create Firebase instance. Follow [Firebase Documentation](https://firebase.google.com/docs/hosting/deploying).
+3. Enable the Translate and Speech-to-Text API in your Cloud Console project. Follow [Google APIs documentation](https://support.google.com/cloud/answer/6158841?hl=en).  
 
 ## Initialize Firebase Directory
 1. Direct Install the Firebase CLI. The Firebase CLI (Command Line Interface) requires Node.js and npm, which can both be installed by following the instructions on https://nodejs.org/. Installing Node.js also installs npm. The Firebase CLI requires Node.js version 5.10.0 or greater. Once you have Node.js and npm installed, you can install the Firebase CLI via npm:
